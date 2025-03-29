@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Django
+*.log
+*.pot
+*.pyc
+*.db
+db.sqlite3
+*.sqlite3
+
+# Media uploads
+/media/
+/staticfiles/
+/static_root/
+/media_root/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Celery + Redis (optional, cache or PID files)
+celerybeat-schedule
+celerybeat.pid
+*.rdb
+
+# OS-specific
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage / test
+htmlcov/
+.coverage
+.tox/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
